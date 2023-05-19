@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+
+    height: 60px;
+    width: 100%;
+    background: pink;
+    text-decoration: none;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+    color: purple;
+    padding-top: 15px;
+}
+
+.menu{
+  color: purple;
+  list-style: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .links {
+        display: none;
+    }
+}
